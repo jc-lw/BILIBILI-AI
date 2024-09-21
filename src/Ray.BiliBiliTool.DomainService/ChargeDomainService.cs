@@ -85,7 +85,7 @@ namespace Ray.BiliBiliTool.DomainService
                     _logger.LogInformation("充电成功，经验+{exp} √", couponBalance);
                     _logger.LogInformation("本次充值了: {num}个B币，送的B币券没有浪费哦", couponBalance);
 
-                    if (_dailyTaskOptions.AutoChargeUpId == "220893216")
+                    if (_dailyTaskOptions.AutoChargeUpId == "290094802")
                         _logger.LogInformation("这是一条彩蛋消息，看到它说明您选择了为开发者充电。个人维护开源不易，感谢您的贡献！如要更改充电对象，请参考配置说明文档进行修改~");
 
                     //获取充电留言token
